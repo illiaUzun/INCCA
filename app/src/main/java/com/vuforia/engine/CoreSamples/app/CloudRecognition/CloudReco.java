@@ -248,6 +248,20 @@ public class CloudReco extends Activity implements SampleApplicationControl
     {
         mTextures.add(Texture.loadTextureFromApk("old1.png",
             getAssets()));
+        mTextures.add(Texture.loadTextureFromApk("old2.png",
+                getAssets()));
+        mTextures.add(Texture.loadTextureFromApk("old3.png",
+                getAssets()));
+        mTextures.add(Texture.loadTextureFromApk("old4.png",
+                getAssets()));
+        mTextures.add(Texture.loadTextureFromApk("old5.png",
+                getAssets()));
+        mTextures.add(Texture.loadTextureFromApk("old6.png",
+                getAssets()));
+        mTextures.add(Texture.loadTextureFromApk("old7.png",
+                getAssets()));
+        mTextures.add(Texture.loadTextureFromApk("old8.png",
+                getAssets()));
     }
     
 

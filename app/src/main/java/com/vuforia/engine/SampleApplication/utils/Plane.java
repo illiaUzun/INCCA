@@ -14,9 +14,23 @@ import java.nio.Buffer;
 /**
  * This class contains all the information needed to augment a plane object
  */
-public class Plane extends MeshObject
-{
+public class Plane extends MeshObject {
+
+    private final Buffer verts;
+    private final Buffer textCoords;
+    private final Buffer norms;
+    private final Buffer indices;
+
+    public Plane() {
+        verts = fillBuffer(planeVertices);
+        textCoords = fillBuffer(planeTexcoords);
+        norms = fillBuffer(planeNormals);
+        indices = fillBuffer(planeIndices);
+    }
+
     public static final short NUM_PLANE_INDEX = 6;
+
+    private static final short planeIndices[] = {0, 1, 2, 0, 2, 3};
 
     // Data for drawing the 3D plane as overlay
     private static final float planeVertices[] = {
@@ -25,7 +39,7 @@ public class Plane extends MeshObject
             0.5f, 0.5f, 0.0f,
             -0.5f, 0.5f, 0.0f
     };
-    
+
     private static final float planeTexcoords[] = {
             0.0f, 0.0f,
             1.0f, 0.0f,
@@ -39,30 +53,14 @@ public class Plane extends MeshObject
             0.0f, 0.0f, 1.0f,
             0.0f, 0.0f, 1.0f
     };
-    
-    private static final short planeIndices[] = { 0, 1, 2, 0, 2, 3 };
 
-    private final Buffer verts;
-    private final Buffer textCoords;
-    private final Buffer norms;
-    private final Buffer indices;
-    
-    
-    public Plane()
-    {
-        verts = fillBuffer(planeVertices);
-        textCoords = fillBuffer(planeTexcoords);
-        norms = fillBuffer(planeNormals);
-        indices = fillBuffer(planeIndices);
-    }
-    
-    
+
+
+
     @Override
-    public Buffer getBuffer(BUFFER_TYPE bufferType)
-    {
+    public Buffer getBuffer(BUFFER_TYPE bufferType) {
         Buffer result = null;
-        switch (bufferType)
-        {
+        switch (bufferType) {
             case BUFFER_TYPE_VERTEX:
                 result = verts;
                 break;
@@ -79,18 +77,16 @@ public class Plane extends MeshObject
         }
         return result;
     }
-    
-    
+
+
     @Override
-    public int getNumObjectVertex()
-    {
+    public int getNumObjectVertex() {
         return planeVertices.length / 3;
     }
-    
-    
+
+
     @Override
-    public int getNumObjectIndex()
-    {
+    public int getNumObjectIndex() {
         return planeIndices.length;
     }
 }

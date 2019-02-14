@@ -9,7 +9,94 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0178af03-d2e8-4d82-a430-ec701fbac7a2" name="Default Changelist" comment="" />
+    <list default="true" id="0178af03-d2e8-4d82-a430-ec701fbac7a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/old2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/old3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/old4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/old5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/old6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/old7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/old8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/SampleApplication/utils/Plane$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/SampleApplication/utils/Plane$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/SampleApplication/utils/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/SampleApplication/utils/Plane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/SampleApplication/utils/Teapot$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/SampleApplication/utils/Teapot$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/SampleApplication/utils/Teapot.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/SampleApplication/utils/Teapot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/SampleApplication/utils/Plane$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/SampleApplication/utils/Plane$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/SampleApplication/utils/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/SampleApplication/utils/Plane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/SampleApplication/utils/Teapot$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/SampleApplication/utils/Teapot$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/SampleApplication/utils/Teapot.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/SampleApplication/utils/Teapot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10/com/vuforia/engine/SampleApplication/utils/Plane$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10/com/vuforia/engine/SampleApplication/utils/Plane$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10/com/vuforia/engine/SampleApplication/utils/Plane.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10/com/vuforia/engine/SampleApplication/utils/Plane.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10/com/vuforia/engine/SampleApplication/utils/Teapot$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10/com/vuforia/engine/SampleApplication/utils/Teapot$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10/com/vuforia/engine/SampleApplication/utils/Teapot.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/10/com/vuforia/engine/SampleApplication/utils/Teapot.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/SampleApplication/utils/Plane$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/SampleApplication/utils/Plane$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/SampleApplication/utils/Plane.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/SampleApplication/utils/Plane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/SampleApplication/utils/Teapot$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/SampleApplication/utils/Teapot$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/SampleApplication/utils/Teapot.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/SampleApplication/utils/Teapot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Lander.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Lander.v3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/StonesAndChips.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/StonesAndChips.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Tarmac.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Tarmac.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/TextureTeapotBlue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/TextureTeapotBrass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/TextureTeapotRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/astronaut.v3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/card_info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/drone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/drone.v3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/reticle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/vumark_texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Teapot.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Teapot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FlakesBox.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FlakesBox_Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FlakesBox_Bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FlakesBox_Front.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FlakesBox_Left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FlakesBox_Right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/FlakesBox_Top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/Vuforia-VuMark-Instances-00-99.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/chips.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/readme_3dprint.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/stones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_chips_A4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_chips_USLetter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_cylinder.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_cylinder_A4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_cylinder_USLetter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_stones_A4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_stones_USLetter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_tarmac_A4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_tarmac_USLetter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_wood_A4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/target_wood_USLetter.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/tarmac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/wood.jpg" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +114,7 @@
     <session id="-1995947090">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="2" />
@@ -41,12 +128,13 @@
           <entry key="gradle" value="5" />
           <entry key="html" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="60" />
-          <entry key="png" value="11" />
-          <entry key="pro" value="2" />
+          <entry key="java" value="64" />
+          <entry key="jpg" value="1" />
+          <entry key="png" value="14" />
+          <entry key="pro" value="3" />
           <entry key="properties" value="4" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -55,19 +143,19 @@
           <entry key="Groovy" value="5" />
           <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Image" value="11" />
-          <entry key="JAVA" value="60" />
+          <entry key="Image" value="15" />
+          <entry key="JAVA" value="64" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="ProGuard File" value="2" />
+          <entry key="ProGuard File" value="3" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="97" />
+          <entry key="java" value="293" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
@@ -75,7 +163,7 @@
         <counts>
           <entry key="Groovy" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="97" />
+          <entry key="JAVA" value="293" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -83,11 +171,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="110" column="86" selection-start-line="110" selection-start-column="86" selection-end-line="110" selection-end-column="86" />
+            <state relative-caret-position="-112">
+              <caret line="1041" column="21" lean-forward="true" selection-start-line="1041" selection-start-column="21" selection-end-line="1041" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,19 +184,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/ImageTarget.class">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/SampleGestureListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/SampleMath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/TextureColorShaders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="248" column="26" selection-start-line="248" selection-start-column="26" selection-end-line="248" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -116,8 +222,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Plane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="346">
+              <caret line="32" column="65" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -125,8 +231,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Teapot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7742">
-              <caret line="464" column="69" selection-start-line="464" selection-start-column="69" selection-end-line="464" selection-end-column="69" />
+            <state relative-caret-position="459">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
               <folding>
                 <element signature="e#107931#107932#0" expanded="true" />
                 <element signature="e#107967#107968#0" expanded="true" />
@@ -138,55 +244,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/MeshObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding>
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/Vuforia.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Android/AndroidSDK/sources/android-27/com/android/server/display/ColorFade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1989">
-              <folding>
-                <element signature="e#0#28251#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/LoadingDialogHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/SampleApplication3DModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/SampleApplicationGLView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/old1.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -201,6 +265,9 @@
       <find>modelMatrix</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" root0="SKIP_INSPECTION" />
   </component>
@@ -210,17 +277,20 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Teapot.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Plane.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Teapot.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="624" />
+    <option name="y" value="-18" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -257,71 +327,7 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="CoreSamples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="CoreSamples" type="462c0819:PsiDirectoryNode" />
-              <item name="CloudRecognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="SampleApplication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="SampleApplication" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -381,13 +387,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="ImageTarget&#9;PSI&#9;JAVA://com.vuforia.ImageTarget" />
+    <property name="SearchEverywhereHistoryKey" value="Tarmac&#9;FILE&#9;file://D:/Documents/AndroidApps/INCCA/app/src/main/assets/Tarmac.xml&#10;ImageTarget&#9;PSI&#9;JAVA://com.vuforia.ImageTarget" />
     <property name="android.sdk.path" value="C:/Android/AndroidSDK" />
     <property name="device.picker.selection" value="8fd290ff" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\AndroidApps\INCCA\app\src\main\assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\AndroidApps\INCCA\app\src\main\assets" />
     </key>
@@ -483,14 +492,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17537314" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16577825" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.11388286" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.28416485" />
       <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
@@ -507,64 +516,11 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21428572" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Build Variants" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="6" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Run" order="0" visible="true" weight="0.09436008" />
-      <window_info anchor="bottom" id="Logcat" order="1" />
-      <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.34056398" />
-      <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info anchor="right" id="Preview" order="0" />
-      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Gradle" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/ui/ActivityList/ActivitySplashScreen.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/ui/ActivityList/ActivityLauncher.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/ui/ActivityList/AboutScreen.java" />
-    <entry file="file://$PROJECT_DIR$/sample-app.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/ui/SampleAppMenu/SampleAppMenu.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/bottom_down.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -664,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/TextureColorShaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/TouchEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -701,13 +650,6 @@
     </entry>
     <entry file="jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/ImageTargetBuilder.class">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Texture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://C:/Android/AndroidSDK/sources/android-27/android/opengl/GLES20.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -754,23 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="110" column="86" selection-start-line="110" selection-start-column="86" selection-end-line="110" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Plane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/MeshObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -782,10 +707,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/ImageTarget.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/Tarmac.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/tarmac.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Texture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/SampleGestureListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/SampleMath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/TextureColorShaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Plane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/Lander.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Teapot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7742">
-          <caret line="464" column="69" selection-start-line="464" selection-start-column="69" selection-end-line="464" selection-end-column="69" />
+        <state relative-caret-position="459">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
           <folding>
             <element signature="e#107931#107932#0" expanded="true" />
             <element signature="e#107967#107968#0" expanded="true" />
@@ -795,17 +785,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/ImageTarget.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/reticle.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/Vuforia.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/old1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="248" column="26" selection-start-line="248" selection-start-column="26" selection-end-line="248" selection-end-column="26" />
+        <state relative-caret-position="-112">
+          <caret line="1041" column="21" lean-forward="true" selection-start-line="1041" selection-start-column="21" selection-end-line="1041" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

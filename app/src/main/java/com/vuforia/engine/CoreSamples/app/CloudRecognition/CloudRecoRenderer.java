@@ -59,7 +59,7 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
 
     // Object to be rendered
     private Teapot mTeapot;
-    
+
     private final CloudReco mActivity;
 
     private boolean mIsActive = false;
