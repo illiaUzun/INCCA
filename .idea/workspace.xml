@@ -17,13 +17,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/vuforia/engine/CoreSamples/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/not_namespaced_r_class_sources/debug/processDebugResources/r/com/vuforia/engine/CoreSamples/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3.class" afterDir="false" />
@@ -31,33 +33,30 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/ui/SampleAppMessage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldpi-v4/values-ldpi-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mdpi-v4/values-mdpi-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/INCCA-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/INCCA-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_run_app_info_output_file/debug/generateDebugInstantRunAppInfo/instant-run-bootstrap.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_run_app_info_output_file/debug/generateDebugInstantRunAppInfo/instant-run-bootstrap.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3.class" afterDir="false" />
@@ -65,40 +64,34 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Lander.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Lander.v3d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/StonesAndChips.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/StonesAndChips.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Tarmac.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Tarmac.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/TextureTeapotBlue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/TextureTeapotBrass.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/TextureTeapotRed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Vuforia.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/Vuforia.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/astronaut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/astronaut.v3d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/card_info.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/drone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/drone.v3d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/old1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/old1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/reticle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_assets/debug/mergeDebugAssets/out/vumark_texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/ui/SampleAppMessage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_about_screen.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activities_list.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_activities_list_text_view.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_camera_overlay_ground_plane.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_camera_overlay_model_targets.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_camera_overlay_model_targets_trained.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_camera_overlay_reticle.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_camera_overlay_udt.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_camera_overlay_with_scanline.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_camera_overlay_with_scanline.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_card.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_sample_app_menu_group.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_sample_app_menu_group_radio_button.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_sample_app_message_view.xml.flat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/resources/instant-run/debug/resources-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_4.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_9.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/13/com/vuforia/engine/CoreSamples/ui/SampleAppMessage$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/13/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/13/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3.dex" afterDir="false" />
@@ -106,18 +99,23 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$4.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$5.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$6.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/14/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15/com/vuforia/engine/CoreSamples/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15/com/vuforia/engine/CoreSamples/R$id.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15/com/vuforia/engine/CoreSamples/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15/com/vuforia/engine/CoreSamples/R$layout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15/com/vuforia/engine/CoreSamples/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15/com/vuforia/engine/CoreSamples/R$string.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15/com/vuforia/engine/CoreSamples/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/15/com/vuforia/engine/CoreSamples/R$style.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/R$id.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/R$layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/R$string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/R$style.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$3.class" afterDir="false" />
@@ -125,27 +123,29 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$GestureListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco$9.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/INCCA-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/INCCA-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Vuforia.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/Vuforia.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/old1.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/old1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/old2.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/old2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/old3.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/old3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/old4.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/old4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/old5.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/old5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/old6.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/old6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/old7.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/old7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/old8.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/old8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/ui/SampleAppMessage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/about_screen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activities_list.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activities_list_text_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_ground_plane.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_model_targets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_model_targets_trained.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_reticle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_udt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_with_scanline.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_with_scanline.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/card.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sample_app_menu_group.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sample_app_menu_group_radio_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/sample_app_message_view.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -164,17 +164,18 @@
     <session id="-1995947090">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -182,14 +183,15 @@
           <entry key="class" value="17" />
           <entry key="gradle" value="7" />
           <entry key="html" value="2" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="93" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="105" />
           <entry key="jpg" value="1" />
+          <entry key="json" value="1" />
           <entry key="png" value="17" />
           <entry key="pro" value="3" />
           <entry key="properties" value="4" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="9" />
+          <entry key="xml" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -197,20 +199,22 @@
           <entry key="CLASS" value="17" />
           <entry key="Groovy" value="7" />
           <entry key="HTML" value="2" />
-          <entry key="IDEA_MODULE" value="1" />
+          <entry key="IDEA_MODULE" value="2" />
           <entry key="Image" value="18" />
-          <entry key="JAVA" value="93" />
+          <entry key="JAVA" value="105" />
+          <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="ProGuard File" value="3" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="9" />
+          <entry key="XML" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="1083" />
+          <entry key="java" value="1111" />
+          <entry key="txt" value="11" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
@@ -218,7 +222,8 @@
         <counts>
           <entry key="Groovy" value="4" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="1083" />
+          <entry key="JAVA" value="1111" />
+          <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -227,43 +232,53 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10846">
-              <caret line="695" column="49" selection-start-line="695" selection-start-column="49" selection-end-line="695" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_with_scanline.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="-197">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
             </state>
           </provider>
+          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/SampleApplicationControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_app_menu_group_divider.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/SampleApplicationSession.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_app_menu_layer.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_app_title_bar.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5508">
-              <caret line="349" selection-start-line="349" selection-end-line="349" />
-              <folding>
-                <element signature="e#11944#11945#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="225" selection-start-line="225" selection-end-line="225" />
+            <state relative-caret-position="337">
+              <caret line="338" selection-start-line="338" selection-end-line="338" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -272,48 +287,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/TargetFinder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/TargetSearchResult.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/TrackableResult.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Android/AndroidSDK/sources/android-27/android/opengl/GLES20.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3468">
-              <caret line="221" column="28" selection-start-line="221" selection-start-column="28" selection-end-line="221" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Teapot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera_overlay.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -341,6 +317,9 @@
       <find>on</find>
       <find>metaData</find>
       <find>onVuforiaUp</find>
+      <find>&quot;Clo</find>
+      <find>xml</find>
+      <find>layout</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -357,12 +336,15 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Plane.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Teapot.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_with_scanline.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -372,6 +354,126 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="CoreSamples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="CoreSamples" type="462c0819:PsiDirectoryNode" />
+              <item name="CloudRecognition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="CoreSamples" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="SampleApplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -421,105 +523,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="CoreSamples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="CoreSamples" type="462c0819:PsiDirectoryNode" />
-              <item name="CloudRecognition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="INCCA" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INCCA" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="SampleApplication" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="onVuf&#9;PSI&#9;JAVA://com.vuforia.engine.SampleApplication.SampleApplicationControl#onVuforiaUpdate&#10;TargetSearchResult&#9;PSI&#9;JAVA://com.vuforia.TargetSearchResult&#10;TargetFinder&#9;FILE&#9;jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/TargetFinder.class&#10;Tarmac&#9;FILE&#9;file://D:/Documents/AndroidApps/INCCA/app/src/main/assets/Tarmac.xml&#10;ImageTarget&#9;PSI&#9;JAVA://com.vuforia.ImageTarget" />
+    <property name="SearchEverywhereHistoryKey" value="scan_line&#9;null&#9;null&#10;onVuf&#9;PSI&#9;JAVA://com.vuforia.engine.SampleApplication.SampleApplicationControl#onVuforiaUpdate&#10;TargetSearchResult&#9;PSI&#9;JAVA://com.vuforia.TargetSearchResult&#10;TargetFinder&#9;FILE&#9;jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/TargetFinder.class&#10;Tarmac&#9;FILE&#9;file://D:/Documents/AndroidApps/INCCA/app/src/main/assets/Tarmac.xml&#10;ImageTarget&#9;PSI&#9;JAVA://com.vuforia.ImageTarget" />
     <property name="android.sdk.path" value="C:/Android/AndroidSDK" />
     <property name="device.picker.selection" value="8fd290ff" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../BooksVUFAdvance" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\AndroidApps\INCCA\app\src\main\res\layout" />
       <recent name="D:\Documents\AndroidApps\INCCA\app\src\main\assets" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\AndroidApps\INCCA\app\src\main\assets" />
     </key>
   </component>
@@ -620,9 +639,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15831557" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14872068" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -636,9 +656,9 @@
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50053304" side_tool="true" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" visible="true" weight="0.28199565" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" weight="0.28199565" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.07266811" />
       <window_info anchor="right" id="Preview" order="0" />
       <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -651,155 +671,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/camera_button_background.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/card_info.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/checkmark.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/icon_camera_pressed.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/TextureTeapotRed.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/astronaut.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/TextureTeapotBlue.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/TextureTeapotBrass.png" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/CloudReco/CR_about.html" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/SampleApplicationV3DModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/Renderer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/LineShaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/SampleUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/CubeShaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/AndroidSDK/sources/android-27/android/opengl/Matrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7701">
-          <caret line="467" column="23" selection-start-line="467" selection-start-column="23" selection-end-line="467" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/DiffuseLightMaterials.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/LightingShaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/TouchEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/VideoBackgroundShader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/CubeObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/AndroidSDK/sources/android-27/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="116" column="19" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/ImageTargetBuilder.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/LoadingDialogHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/SampleApplication3DModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/SampleApplicationGLView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Android/AndroidSDK/sources/android-27/com/android/server/display/ColorFade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1989" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/MeshObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Android/vuforiaSDK/build/java/Vuforia/Vuforia.jar!/com/vuforia/ImageTarget.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/Tarmac.xml" />
-    <entry file="file://$PROJECT_DIR$/media/tarmac.jpg" />
-    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Texture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -837,7 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/old1.png">
+    <entry file="file://D:/Desktop/FotoGUK/old1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/Vuforia.xml" />
@@ -848,33 +719,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/assets/old8.png">
+    <entry file="file://D:/Desktop/FotoGUK/old8.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10846">
-          <caret line="695" column="49" selection-start-line="695" selection-start-column="49" selection-end-line="695" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/SampleApplicationControl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
           <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/SampleApplicationSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5508">
-          <caret line="349" selection-start-line="349" selection-end-line="349" />
-          <folding>
-            <element signature="e#11944#11945#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,17 +757,185 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/VideoBackgroundShader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/TouchEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-491">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/Teapot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="51">
           <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-hdpi/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/utils/CubeObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BooksVUFAdvance/app/src/main/res/layout/splash_screen.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BooksVUFAdvance/app/src/main/res/layout/sample_app_menu_layer.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BooksVUFAdvance/app/src/main/res/layout/sample_app_menu_group.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BooksVUFAdvance/app/src/main/res/layout/sample_app_menu_group_divider.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BooksVUFAdvance/app/src/main/res/layout/sample_app_menu_group_radio_button.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudRecoRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="225" selection-start-line="225" selection-end-line="225" />
+        <state relative-caret-position="512">
+          <caret line="254" column="14" selection-start-line="254" selection-start-column="8" selection-end-line="254" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BooksVUFAdvance/app/src/main/res/layout/about_screen.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/SampleApplication/SampleApplicationSession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="97" column="32" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="32" />
+          <folding>
+            <element signature="e#11885#11886#0" expanded="true" />
+            <element signature="e#11944#11945#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_model_targets_trained.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_ground_plane.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_model_targets.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_reticle.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activities_list.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activities_list_text_view.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_udt.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/about_screen.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_app_message_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/ui/SampleAppMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_app_menu_group.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_app_title_bar.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_app_menu_layer.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_app_menu_group_radio_button.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/sample_app_menu_group_divider.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera_overlay.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/camera_overlay_with_scanline.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vuforia/engine/CoreSamples/app/CloudRecognition/CloudReco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

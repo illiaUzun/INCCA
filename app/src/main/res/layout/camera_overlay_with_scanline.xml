@@ -4,6 +4,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+        <TextView
+            android:id="@+id/overlay_status2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="70dp"
+            android:background="@color/semi_transparent_black"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingTop="10dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/scan_line"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:scaleType="fitXY"
+            android:src="@drawable/scanline"
+            android:visibility="gone" />
+
         <ProgressBar
             style="@android:style/Widget.ProgressBar"
             android:id="@+id/loading_indicator"
@@ -11,37 +35,5 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true" />
-
-        <include layout="@layout/sample_app_title_bar"/>
-
-        <ImageView
-            android:id="@+id/scan_line"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:src="@drawable/scanline"
-            android:scaleType="fitXY"
-            android:contentDescription="@string/descr_scan_line"/>
-
-        <RelativeLayout
-            android:id="@+id/reset_btn_overlay_layout"
-            android:layout_width="@dimen/button_reset_dimens"
-            android:layout_height="@dimen/button_reset_dimens"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginEnd="15dp"
-            android:layout_marginRight="15dp"
-            android:layout_marginBottom="15dp">
-
-                <Button
-                    android:id="@+id/reset_btn"
-                    android:background="@drawable/selector_btn_reset"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:padding="5dp"
-                    android:layout_centerInParent="true"
-                    android:visibility="gone" />
-
-        </RelativeLayout>
 
 </RelativeLayout>

@@ -8,10 +8,6 @@
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-mdpi\\btn_reset_selected.png"
     },
     {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_sample_app_menu_group.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\sample_app_menu_group.xml"
-    },
-    {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lander_status_snapped.png.flat",
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-hdpi\\lander_status_snapped.png"
     },
@@ -20,12 +16,12 @@
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable\\round_bg.xml"
     },
     {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_ground_plane.png.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-mdpi\\icon_ground_plane.png"
-    },
-    {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_icon_ground_plane.png.flat",
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-xxhdpi\\icon_ground_plane.png"
+    },
+    {
+        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_icon_ground_plane.png.flat",
+        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-mdpi\\icon_ground_plane.png"
     },
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_sample_app_title_bar.xml.flat",
@@ -74,14 +70,6 @@
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_btn_drone.png.flat",
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-hdpi\\btn_drone.png"
-    },
-    {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_sample_app_menu_group_radio_button.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\sample_app_menu_group_radio_button.xml"
-    },
-    {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activities_list_text_view.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\activities_list_text_view.xml"
     },
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_info.png.flat",
@@ -186,14 +174,6 @@
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btn_reset_selected.png.flat",
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-xxhdpi\\btn_reset_selected.png"
-    },
-    {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_camera_overlay_reticle.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\camera_overlay_reticle.xml"
-    },
-    {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_card.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\card.xml"
     },
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bike_status_snapped.png.flat",
@@ -344,16 +324,8 @@
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-xhdpi\\icon.png"
     },
     {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_camera_overlay_model_targets_trained.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\camera_overlay_model_targets_trained.xml"
-    },
-    {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_lander_status_recognized.png.flat",
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-xhdpi\\lander_status_recognized.png"
-    },
-    {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_about_screen.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\about_screen.xml"
     },
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btn_astro_selected.png.flat",
@@ -362,10 +334,6 @@
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_chair_selected.png.flat",
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-mdpi\\btn_chair_selected.png"
-    },
-    {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_camera_overlay_ground_plane.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\camera_overlay_ground_plane.xml"
     },
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_icon.png.flat",
@@ -416,10 +384,6 @@
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-xhdpi\\bike_status_passive.png"
     },
     {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_camera_overlay_udt.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\camera_overlay_udt.xml"
-    },
-    {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_astro_selected.png.flat",
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-mdpi\\btn_astro_selected.png"
     },
@@ -452,10 +416,6 @@
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable\\bike_status_passive.png"
     },
     {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activities_list.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\activities_list.xml"
-    },
-    {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_btn_reset.png.flat",
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-xxhdpi\\btn_reset.png"
     },
@@ -482,10 +442,6 @@
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_icon_mid_air.png.flat",
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-hdpi\\icon_mid_air.png"
-    },
-    {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_camera_overlay_model_targets.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\camera_overlay_model_targets.xml"
     },
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_lander_status_recognized.png.flat",
@@ -558,10 +514,6 @@
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_lander_reticle.png.flat",
         "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\drawable-xxhdpi\\lander_reticle.png"
-    },
-    {
-        "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\layout_sample_app_message_view.xml.flat",
-        "source": "D:\\Documents\\AndroidApps\\INCCA\\app\\src\\main\\res\\layout\\sample_app_message_view.xml"
     },
     {
         "merged": "D:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_btn_reset.png.flat",

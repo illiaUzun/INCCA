@@ -27,7 +27,7 @@ import com.vuforia.engine.CoreSamples.R;
  */
 public class SampleAppMessage
 {
-    private final View mView;
+ /*   private final View mView;
     private final TextView mTextMessageView;
     private final Animation mFadeIn;
     private final Animation mFadeOut;
@@ -106,5 +106,5 @@ public class SampleAppMessage
         mView.startAnimation(mFadeIn);
         mTextMessageView.setText(message);
         mView.setVisibility(View.VISIBLE);
-    }
+    }*/
 }

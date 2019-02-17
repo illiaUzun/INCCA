@@ -162,7 +162,7 @@ public class CloudReco extends Activity implements SampleApplicationControl
                 "droid");
 
         // Relocalization timer and message
-        mSampleAppMessage = new SampleAppMessage(this, mUILayout, mUILayout.findViewById(R.id.topbar_layout), false);
+//        mSampleAppMessage = new SampleAppMessage(this, mUILayout, mUILayout.findViewById(R.id.topbar_layout), false);
         mRelocalizationTimer = new SampleAppTimer(10000, 1000) {
             @Override
             public void onFinish() {
@@ -181,12 +181,12 @@ public class CloudReco extends Activity implements SampleApplicationControl
                     mRelocalizationTimer.startTimer();
                 }
 
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        mSampleAppMessage.show(getString(R.string.instruct_relocalize));
-                    }
-                });
+//                runOnUiThread(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        mSampleAppMessage.show(getString(R.string.instruct_relocalize));
+//                    }
+//                });
 
                 super.onFinish();
             }
@@ -327,15 +327,13 @@ public class CloudReco extends Activity implements SampleApplicationControl
         mUILayout.setVisibility(View.VISIBLE);
         mUILayout.setBackgroundColor(Color.BLACK);
 
-        RelativeLayout topbarLayout = mUILayout.findViewById(R.id.topbar_layout);
-        topbarLayout.setVisibility(View.VISIBLE);
+//        RelativeLayout topbarLayout = mUILayout.findViewById(R.id.topbar_layout);
+//        topbarLayout.setVisibility(View.VISIBLE);
 
-        TextView title = mUILayout.findViewById(R.id.topbar_title);
-        title.setText(getText(R.string.feature_cloud_reco));
+//        TextView title = mUILayout.findViewById(R.id.topbar_title);
+//        title.setText(getText(R.string.feature_cloud_reco));
 
-        mSettingsAdditionalViews.add(topbarLayout);
-
-        mBtnLayout = mUILayout.findViewById(R.id.reset_btn);
+//        mSettingsAdditionalViews.add(topbarLayout);
 
         loadingDialogHandler.mLoadingDialogContainer = mUILayout
                 .findViewById(R.id.loading_indicator);
@@ -600,16 +598,7 @@ public class CloudReco extends Activity implements SampleApplicationControl
                     LayoutParams.MATCH_PARENT));
 
             mUILayout.bringToFront();
-            mBtnLayout.setVisibility(View.VISIBLE);
-
-            Button resetBtn = (Button) mUILayout.findViewById(R.id.reset_btn);
-
-            resetBtn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    mResetTargetFinderTrackables = true;
-                }
-            });
+//            mBtnLayout.setVisibility(View.VISIBLE);
 
             // Hides the Loading Dialog
             loadingDialogHandler.sendEmptyMessage(LoadingDialogHandler.HIDE_LOADING_DIALOG);
@@ -944,27 +933,27 @@ public class CloudReco extends Activity implements SampleApplicationControl
             if (mRelocalizationTimer.isRunning()) {
                 mRelocalizationTimer.stopTimer();
             }
-
-            runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    mSampleAppMessage.hide();
-                }
-            });
+//
+//            runOnUiThread(new Runnable() {
+//                @Override
+//                public void run() {
+//                    mSampleAppMessage.hide();
+//                }
+//            });
         }
     }
 
 
-    private void clearSampleAppMessage() {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                if (mSampleAppMessage != null) {
-                    mSampleAppMessage.hide();
-                }
-            }
-        });
-    }
+//    private void clearSampleAppMessage() {
+//        runOnUiThread(new Runnable() {
+//            @Override
+//            public void run() {
+//                if (mSampleAppMessage != null) {
+//                    mSampleAppMessage.hide();
+//                }
+//            }
+//        });
+//    }
 
 
     private void scanlineStart() {

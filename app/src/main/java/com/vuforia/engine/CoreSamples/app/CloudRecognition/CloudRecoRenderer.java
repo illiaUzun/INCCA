@@ -40,6 +40,12 @@ import java.util.Vector;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
+import static android.opengl.GLES20.GL_BLEND;
+import static android.opengl.GLES20.GL_ONE_MINUS_SRC_ALPHA;
+import static android.opengl.GLES20.GL_SRC_ALPHA;
+import static android.opengl.GLES20.glBlendFunc;
+import static android.opengl.GLES20.glEnable;
+
 
 /**
  * The renderer class for the CloudReco sample.
@@ -171,8 +177,8 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         Matrix44F devicePoseMatrix = SampleMath.Matrix44FIdentity();
         Matrix44F modelMatrix;
 
-        GLES20.glEnable(GLES20.GL_DEPTH_TEST);
-        GLES20.glEnable(GLES20.GL_CULL_FACE);
+        glEnable(GLES20.GL_DEPTH_TEST);
+        glEnable(GLES20.GL_CULL_FACE);
 
         // Start the target finder if we can't find an Image Target result.
         // If the Device pose exists, we can assume we will receive two
@@ -231,6 +237,9 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         Matrix.scaleM(modelMatrix, 0, OBJECT_SCALE_FLOAT,
                 OBJECT_SCALE_FLOAT, OBJECT_SCALE_FLOAT);
 
+        glEnable(GL_BLEND);
+        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
         // Combine device pose (view matrix) with model matrix
         Matrix.multiplyMM(modelMatrix, 0, viewMatrix, 0, modelMatrix, 0);
 
@@ -243,7 +252,8 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
                 0, mTeapot.getVertices());
         GLES20.glVertexAttribPointer(textureCoordHandle, 2, GLES20.GL_FLOAT,
                 false, 0, mTeapot.getTexCoords());
-
+        GLES20.glEnable(GL_BLEND);
+        GLES20.glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         GLES20.glEnableVertexAttribArray(vertexHandle);
         GLES20.glEnableVertexAttribArray(textureCoordHandle);
 
