@@ -6,29 +6,26 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.3.0"
-    timestamp="1550345511214"
+    timestamp="1550403906658"
     token="6731251140602595109"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1198" />
+        duration="176" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="48" />
+        duration="93" />
     <task
         name="verifier"
-        duration="71" />
+        duration="12" />
 
     <artifact
         location="D:\Documents\AndroidApps\INCCA\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
-    <artifact
-        location="D:\Documents\AndroidApps\INCCA\app\build\intermediates\instant-run-apk\debug\INCCA-debug.apk"
-        type="SPLIT_MAIN" />
     <artifact
         location="D:\Documents\AndroidApps\INCCA\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
         type="SPLIT" />
@@ -62,17 +59,17 @@
     <artifact
         location="D:\Documents\AndroidApps\INCCA\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
         type="SPLIT" />
+    <artifact
+        location="D:\Documents\AndroidApps\INCCA\app\build\intermediates\instant-run-apk\debug\INCCA-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1550345511214"
+        timestamp="1550403906658"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Documents\AndroidApps\INCCA\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
-        <artifact
-            location="D:\Documents\AndroidApps\INCCA\app\build\intermediates\instant-run-apk\debug\INCCA-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="D:\Documents\AndroidApps\INCCA\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -106,6 +103,9 @@
         <artifact
             location="D:\Documents\AndroidApps\INCCA\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
+        <artifact
+            location="D:\Documents\AndroidApps\INCCA\app\build\intermediates\instant-run-apk\debug\INCCA-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
