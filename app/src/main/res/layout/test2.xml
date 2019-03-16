@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/camera_overlay_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <android.support.constraint.motion.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/motionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutDescription="@xml/scene2"
+        tools:ignore="contentDescription">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/bottom_panal"
+            android:layout_width="410dp"
+            android:layout_height="85dp"
+            android:maxWidth="410dp"
+            android:maxHeight="85dp"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/camera_overlay_layout" />
+
+        <ImageView
+            android:id="@+id/panal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/transparent"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_panal"
+            app:layout_constraintBottom_toBottomOf="@+id/bottom_panal"
+            app:layout_constraintEnd_toEndOf="@+id/bottom_panal"
+            app:layout_constraintStart_toStartOf="@+id/bottom_panal"
+            app:layout_constraintTop_toTopOf="@+id/bottom_panal" />
+
+        <android.support.constraint.utils.ImageFilterView
+            android:id="@+id/logo"
+            android:layout_width="375dp"
+            android:layout_height="260dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/transparent"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/onpu_icon"
+            app:altSrc="@drawable/onpu_icon_full"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/map_image"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/transparent"
+            android:contentDescription="@string/map_button"
+            android:src="@drawable/ic_map_button"
+            app:layout_constraintBottom_toBottomOf="@+id/bottom_panal"
+            app:layout_constraintEnd_toEndOf="@+id/bottom_panal"
+            app:layout_constraintStart_toEndOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="375dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="serif"
+            android:text="@string/ONPU"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo"
+
+            />
+
+
+    </android.support.constraint.motion.MotionLayout>
+
+</RelativeLayout>

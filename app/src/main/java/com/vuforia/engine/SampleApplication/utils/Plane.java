@@ -12,49 +12,75 @@ package com.vuforia.engine.SampleApplication.utils;
 import java.nio.Buffer;
 
 /**
- * This class contains all the information needed to augment a plane object
+ * This class contains all the information needed to augment a teapot model
  */
 public class Plane extends MeshObject {
 
-    private final Buffer verts;
-    private final Buffer textCoords;
-    private final Buffer norms;
-    private final Buffer indices;
+    private Buffer mVertBuff;
+    private Buffer mTexCoordBuff;
+    private Buffer mNormBuff;
+    private Buffer mIndBuff;
+
+    private int indicesNumber = 0;
+    private int verticesNumber = 0;
+
 
     public Plane() {
-        verts = fillBuffer(planeVertices);
-        textCoords = fillBuffer(planeTexcoords);
-        norms = fillBuffer(planeNormals);
-        indices = fillBuffer(planeIndices);
+        setVerts();
+        setTexCoords();
+        setNorms();
+        setIndices();
     }
 
-    public static final short NUM_PLANE_INDEX = 6;
 
-    private static final short planeIndices[] = {0, 1, 2, 0, 2, 3};
-
-    // Data for drawing the 3D plane as overlay
-    private static final float planeVertices[] = {
-            -0.5f, -0.5f, 0.0f,
-            0.5f, -0.5f, 0.0f,
-            0.5f, 0.5f, 0.0f,
-            -0.5f, 0.5f, 0.0f
-    };
-
-    private static final float planeTexcoords[] = {
-            0.0f, 0.0f,
-            1.0f, 0.0f,
-            1.0f, 1.0f,
-            0.0f, 1.0f
-    };
-
-    private static final float planeNormals[] = {
-            0.0f, 0.0f, 1.0f,
-            0.0f, 0.0f, 1.0f,
-            0.0f, 0.0f, 1.0f,
-            0.0f, 0.0f, 1.0f
-    };
+    private void setVerts() {
+        double[] PLANE_VERTS = {
+                -50.130548f, -30.0f, 0.0001f,
+                50.130548f, -30.0f, 0.0001f,
+                50.130548f, 30.0f, 0.0001f,
+                -50.130548f, 30.0f, 0.0001f};
+        mVertBuff = fillBuffer(PLANE_VERTS);
+        verticesNumber = PLANE_VERTS.length / 3;
+    }
 
 
+    private void setTexCoords() {
+        double[] PLANE_TEX_COORDS = {
+                0.0f, 0.0f,
+                1.0f, 0.0f,
+                1.0f, 1.0f,
+                0.0f, 1.0f};
+        mTexCoordBuff = fillBuffer(PLANE_TEX_COORDS);
+
+    }
+
+
+    private void setNorms() {
+        double[] PLANE_NORMS = {
+                0.0f, 0.0f, 1.0f,
+                0.0f, 0.0f, 1.0f,
+                0.0f, 0.0f, 1.0f,
+                0.0f, 0.0f, 1.0f};
+        mNormBuff = fillBuffer(PLANE_NORMS);
+    }
+
+
+    private void setIndices() {
+        short[] PLANE_INDICES = {0, 1, 2, 0, 2, 3};
+        mIndBuff = fillBuffer(PLANE_INDICES);
+        indicesNumber = PLANE_INDICES.length;
+    }
+
+
+    public int getNumObjectIndex() {
+        return indicesNumber;
+    }
+
+
+    @Override
+    public int getNumObjectVertex() {
+        return verticesNumber;
+    }
 
 
     @Override
@@ -62,31 +88,22 @@ public class Plane extends MeshObject {
         Buffer result = null;
         switch (bufferType) {
             case BUFFER_TYPE_VERTEX:
-                result = verts;
+                result = mVertBuff;
                 break;
             case BUFFER_TYPE_TEXTURE_COORD:
-                result = textCoords;
-                break;
-            case BUFFER_TYPE_INDICES:
-                result = indices;
+                result = mTexCoordBuff;
                 break;
             case BUFFER_TYPE_NORMALS:
-                result = norms;
+                result = mNormBuff;
+                break;
+            case BUFFER_TYPE_INDICES:
+                result = mIndBuff;
             default:
                 break;
+
         }
+
         return result;
     }
 
-
-    @Override
-    public int getNumObjectVertex() {
-        return planeVertices.length / 3;
-    }
-
-
-    @Override
-    public int getNumObjectIndex() {
-        return planeIndices.length;
-    }
 }

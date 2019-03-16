@@ -13,15 +13,12 @@ import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
 import android.opengl.Matrix;
 
-import com.vuforia.CloudRecoSearchResult;
 import com.vuforia.Device;
 import com.vuforia.ImageTargetResult;
 import com.vuforia.Matrix44F;
 import com.vuforia.Renderer;
 import com.vuforia.State;
 import com.vuforia.TargetFinder;
-import com.vuforia.TargetFinderQueryResult;
-import com.vuforia.TargetSearchResult;
 import com.vuforia.Tool;
 import com.vuforia.TrackableResult;
 import com.vuforia.TrackableResultList;
@@ -32,7 +29,7 @@ import com.vuforia.engine.SampleApplication.SampleApplicationSession;
 import com.vuforia.engine.SampleApplication.utils.CubeShaders;
 import com.vuforia.engine.SampleApplication.utils.SampleMath;
 import com.vuforia.engine.SampleApplication.utils.SampleUtils;
-import com.vuforia.engine.SampleApplication.utils.Teapot;
+import com.vuforia.engine.SampleApplication.utils.Plane;
 import com.vuforia.engine.SampleApplication.utils.Texture;
 
 import java.util.Vector;
@@ -68,7 +65,7 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
     private Vector<Texture> mTextures;
 
     // Object to be rendered
-    private Teapot mTeapot;
+    private Plane mPlane;
 
     private final CloudReco mActivity;
 
@@ -86,7 +83,6 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
                 false, 0.010f, 5f);
     }
 
-
     // Called when the surface is created or recreated.
     @Override
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
@@ -96,7 +92,6 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
 
         mSampleAppRenderer.onSurfaceCreated();
     }
-
 
     // Called when the surface changes size.
     @Override
@@ -111,13 +106,11 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         initRendering();
     }
 
-
     @Override
     public void onDrawFrame(GL10 gl) {
         // Call our function to render content from SampleAppRenderer class
         mSampleAppRenderer.render();
     }
-
 
     public void setActive(boolean active) {
         mIsActive = active;
@@ -125,7 +118,6 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         if (mIsActive)
             mSampleAppRenderer.configureVideoBackground();
     }
-
 
     private void initRendering() {
         // Define clear color
@@ -156,7 +148,7 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
                 "modelViewProjectionMatrix");
         texSampler2DHandle = GLES20.glGetUniformLocation(shaderProgramID,
                 "texSampler2D");
-        mTeapot = new Teapot();
+        mPlane = new Plane();
     }
 
 
@@ -225,7 +217,6 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         Renderer.getInstance().end();
     }
 
-
     private void renderModel(float[] projectionMatrix, float[] viewMatrix, float[] modelMatrix, String metaData) {
         int textureIndex = Integer.parseInt(metaData);
         System.out.println(metaData);
@@ -249,9 +240,9 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         // activate the shader program and bind the vertex/normal/tex coords
         GLES20.glUseProgram(shaderProgramID);
         GLES20.glVertexAttribPointer(vertexHandle, 3, GLES20.GL_FLOAT, false,
-                0, mTeapot.getVertices());
+                0, mPlane.getVertices());
         GLES20.glVertexAttribPointer(textureCoordHandle, 2, GLES20.GL_FLOAT,
-                false, 0, mTeapot.getTexCoords());
+                false, 0, mPlane.getTexCoords());
         GLES20.glEnable(GL_BLEND);
         GLES20.glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         GLES20.glEnableVertexAttribArray(vertexHandle);
@@ -268,8 +259,8 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
                 modelViewProjection, 0);
 
         // finally draw the teapot
-        GLES20.glDrawElements(GLES20.GL_TRIANGLES, mTeapot.getNumObjectIndex(),
-                GLES20.GL_UNSIGNED_SHORT, mTeapot.getIndices());
+        GLES20.glDrawElements(GLES20.GL_TRIANGLES, mPlane.getNumObjectIndex(),
+                GLES20.GL_UNSIGNED_SHORT, mPlane.getIndices());
 
         // disable the enabled arrays
         GLES20.glDisableVertexAttribArray(vertexHandle);

@@ -17,6 +17,8 @@ import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.constraint.ConstraintLayout;
+import android.support.constraint.motion.MotionLayout;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
@@ -27,7 +29,6 @@ import android.view.animation.LinearInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 import com.vuforia.CameraDevice;
 import com.vuforia.ObjectTracker;
@@ -42,7 +43,6 @@ import com.vuforia.TrackableResult;
 import com.vuforia.Tracker;
 import com.vuforia.TrackerManager;
 import com.vuforia.Vuforia;
-import com.vuforia.engine.CoreSamples.ui.SampleAppMessage;
 import com.vuforia.engine.SampleApplication.utils.SampleAppTimer;
 import com.vuforia.engine.SampleApplication.SampleApplicationControl;
 import com.vuforia.engine.SampleApplication.SampleApplicationException;
@@ -92,7 +92,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
     //    private SampleAppMenu mSampleAppMenu;
     ArrayList<View> mSettingsAdditionalViews = new ArrayList<>();
 
-    private SampleAppMessage mSampleAppMessage;
     private SampleAppTimer mRelocalizationTimer;
     private SampleAppTimer mStatusDelayTimer;
 
@@ -111,7 +110,7 @@ public class CloudReco extends Activity implements SampleApplicationControl
     private static final String kSecretKey = "a95abbcf3ffb2561b8ca73067dfff502393e5817";
 
     // View overlays to be displayed in the Augmented View
-    private RelativeLayout mUILayout;
+    private MotionLayout mUILayout;
     private Button mBtnLayout;
 
     // Error message handling:
@@ -128,7 +127,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
             this);
 
     // Scan line and animation
-    private View scanLine;
     private TranslateAnimation scanAnimation;
 
     private double mLastErrorTime;
@@ -162,7 +160,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
                 "droid");
 
         // Relocalization timer and message
-//        mSampleAppMessage = new SampleAppMessage(this, mUILayout, mUILayout.findViewById(R.id.topbar_layout), false);
         mRelocalizationTimer = new SampleAppTimer(10000, 1000) {
             @Override
             public void onFinish() {
@@ -180,19 +177,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
                 if (!mRelocalizationTimer.isRunning()) {
                     mRelocalizationTimer.startTimer();
                 }
-
-//                runOnUiThread(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        mSampleAppMessage.show(getString(R.string.instruct_relocalize));
-//                    }
-//                });
-
                 super.onFinish();
             }
         };
     }
-
 
     private class GestureListener extends
             GestureDetector.SimpleOnGestureListener {
@@ -228,7 +216,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
         }
     }
 
-
     // Load specific textures from the APK, which we will later use for rendering.
     private void loadTextures() {
         mTextures.add(Texture.loadTextureFromApk("old1.png",
@@ -249,7 +236,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
                 getAssets()));
     }
 
-
     @Override
     protected void onResume() {
         Log.d(LOGTAG, "onResume");
@@ -266,7 +252,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
         vuforiaAppSession.onResume();
     }
 
-
     // Called whenever the device orientation or screen resolution changes
     @Override
     public void onConfigurationChanged(Configuration config) {
@@ -275,7 +260,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
 
         vuforiaAppSession.onConfigurationChanged();
     }
-
 
     @Override
     protected void onPause() {
@@ -289,7 +273,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
             mGlView.onPause();
         }
     }
-
 
     @Override
     protected void onDestroy() {
@@ -307,7 +290,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
         System.gc();
     }
 
-
     private void deinitCloudReco() {
         if (mTargetFinder == null) {
             Log.e(LOGTAG,
@@ -318,30 +300,19 @@ public class CloudReco extends Activity implements SampleApplicationControl
         mTargetFinder.deinit();
     }
 
-
     private void startLoadingAnimation() {
         // Inflates the Overlay Layout to be displayed above the Camera View
-        mUILayout = (RelativeLayout) View.inflate(this, R.layout.camera_overlay_with_scanline,
+        mUILayout = (MotionLayout) View.inflate(this, R.layout.camera_overlay_with_scanline,
                 null);
 
         mUILayout.setVisibility(View.VISIBLE);
         mUILayout.setBackgroundColor(Color.BLACK);
-
-//        RelativeLayout topbarLayout = mUILayout.findViewById(R.id.topbar_layout);
-//        topbarLayout.setVisibility(View.VISIBLE);
-
-//        TextView title = mUILayout.findViewById(R.id.topbar_title);
-//        title.setText(getText(R.string.feature_cloud_reco));
-
-//        mSettingsAdditionalViews.add(topbarLayout);
 
         loadingDialogHandler.mLoadingDialogContainer = mUILayout
                 .findViewById(R.id.loading_indicator);
         loadingDialogHandler.mLoadingDialogContainer
                 .setVisibility(View.VISIBLE);
 
-        scanLine = mUILayout.findViewById(R.id.scan_line);
-        scanLine.setVisibility(View.GONE);
         scanAnimation = new TranslateAnimation(
                 TranslateAnimation.ABSOLUTE, 0f,
                 TranslateAnimation.ABSOLUTE, 0f,
@@ -355,7 +326,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
         addContentView(mUILayout, new LayoutParams(LayoutParams.MATCH_PARENT,
                 LayoutParams.MATCH_PARENT));
     }
-
 
     private void initApplicationAR() {
         // Create OpenGL ES view:
@@ -372,7 +342,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
         mRenderer.setTextures(mTextures);
         mGlView.setRenderer(mRenderer);
     }
-
 
     // Returns the error message for each error code
     private String getStatusDescString(int code) {
@@ -397,7 +366,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
         }
     }
 
-
     // Returns the error message header for each error code
     private String getStatusTitleString(int code) {
         if (code == UPDATE_ERROR_AUTHORIZATION_FAILED)
@@ -420,7 +388,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
             return getString(R.string.UPDATE_ERROR_UNKNOWN_TITLE);
         }
     }
-
 
     private void showErrorMessage(int errorCode, double errorTime, boolean finishActivityOnError) {
         if (errorTime < (mLastErrorTime + 5.0) || errorCode == mlastErrorCode)
@@ -463,7 +430,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
         });
     }
 
-
     private void showInitializationErrorMessage(String message) {
         final String errorMessage = message;
         runOnUiThread(new Runnable() {
@@ -493,7 +459,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
         });
     }
 
-
     public void startFinderIfStopped() {
         if (!mFinderStarted) {
             if (mTargetFinder == null) {
@@ -502,12 +467,9 @@ public class CloudReco extends Activity implements SampleApplicationControl
             }
 
             mTargetFinder.startRecognition();
-            scanlineStart();
-
             mFinderStarted = true;
         }
     }
-
 
     public void stopFinderIfStarted() {
         if (mFinderStarted) {
@@ -515,23 +477,15 @@ public class CloudReco extends Activity implements SampleApplicationControl
                 Log.e(LOGTAG, "Tried to stop TargetFinder but was not initialized");
                 return;
             }
-
             mTargetFinder.stop();
-            scanlineStop();
-
             mFinderStarted = false;
         }
     }
 
-
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        // Process the Gestures
-//        return (mSampleAppMenu != null && mSampleAppMenu.processEvent(event))
-//                || mGestureDetector.onTouchEvent(event);
         return true;
     }
-
 
     @Override
     public boolean doLoadTrackersData() {
@@ -565,7 +519,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
         return true;
     }
 
-
     @Override
     public boolean doUnloadTrackersData() {
         return true;
@@ -598,7 +551,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
                     LayoutParams.MATCH_PARENT));
 
             mUILayout.bringToFront();
-//            mBtnLayout.setVisibility(View.VISIBLE);
 
             // Hides the Loading Dialog
             loadingDialogHandler.sendEmptyMessage(LoadingDialogHandler.HIDE_LOADING_DIALOG);
@@ -606,10 +558,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
             mUILayout.setBackgroundColor(Color.TRANSPARENT);
 
             mSettingsAdditionalViews.add(mBtnLayout);
-//            mSampleAppMenu = new SampleAppMenu(this, this, "Cloud Reco",
-//                mGlView, mUILayout, mSettingsAdditionalViews);
-//            setSampleAppMenuSettings();
-
             vuforiaAppSession.startAR(CameraDevice.CAMERA_DIRECTION.CAMERA_DIRECTION_DEFAULT);
 
         } else  // Show error message if an exception was thrown during the init process
@@ -646,7 +594,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
             loadingDialogHandler.sendEmptyMessage(LoadingDialogHandler.HIDE_LOADING_DIALOG);
         }
     }
-
 
     // Called every frame
     @Override
@@ -691,7 +638,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
                 }
             }
         }
-
 
         if (mResetTargetFinderTrackables) {
             finder.clearTrackables();
@@ -742,7 +688,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
         }
 
         mTargetFinder.startRecognition();
-        scanlineStart();
         mFinderStarted = true;
 
         // Start the Object Tracker
@@ -790,7 +735,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
 
             TargetFinder targetFinder = mTargetFinder;
             targetFinder.stop();
-            scanlineStop();
             mFinderStarted = false;
 
             // Clears the trackables
@@ -831,86 +775,9 @@ public class CloudReco extends Activity implements SampleApplicationControl
         return mDeviceTracker;
     }
 
-
     // Menu options
     private final static int CMD_BACK = -1;
     private final static int CMD_DEVICE_TRACKER = 1;
-
-//    private void setSampleAppMenuSettings()
-//    {
-//        SampleAppMenuGroup group;
-//
-//        group = mSampleAppMenu.addGroup("", false);
-//        group.addTextItem(getString(R.string.menu_back), -1);
-//
-//        group = mSampleAppMenu.addGroup("", true);
-//        group.addSelectionItem(getString(R.string.menu_device_tracker),
-//                CMD_DEVICE_TRACKER, false);
-//
-//        mSampleAppMenu.attachMenu();
-//    }
-
-
-    // In this function you can define the desired behavior for each menu option
-    // Each case corresponds to a menu option
-//    @Override
-//    public boolean menuProcess(int command)
-//    {
-//        boolean result = true;
-//
-//        switch (command)
-//        {
-//            case CMD_BACK:
-//                finish();
-//                break;
-//
-//            case CMD_DEVICE_TRACKER:
-//
-//                TrackerManager trackerManager = TrackerManager.getInstance();
-//                PositionalDeviceTracker deviceTracker = (PositionalDeviceTracker)
-//                        trackerManager.getTracker(PositionalDeviceTracker.getClassType());
-//
-//                if (deviceTracker != null)
-//                {
-//                    if (!mDeviceTracker)
-//                    {
-//                        if (!deviceTracker.start())
-//                        {
-//                            Log.e(LOGTAG,"Failed to start device tracker");
-//                            result = false;
-//                        }
-//                        else
-//                        {
-//                            Log.d(LOGTAG,"Successfully started device tracker");
-//                        }
-//                    }
-//                    else
-//                    {
-//                        deviceTracker.stop();
-//                        clearSampleAppMessage();
-//                    }
-//                }
-//                else
-//                {
-//                    Log.e(LOGTAG, "Device tracker is null!");
-//                    result = false;
-//                }
-//
-//                if (result)
-//                {
-//                    mDeviceTracker = !mDeviceTracker;
-//                }
-//                else
-//                {
-//                    clearSampleAppMessage();
-//                }
-//
-//                break;
-//        }
-//
-//        return result;
-//    }
-
 
     public void checkForRelocalization(final int statusInfo) {
         if (mCurrentStatusInfo == statusInfo) {
@@ -933,47 +800,6 @@ public class CloudReco extends Activity implements SampleApplicationControl
             if (mRelocalizationTimer.isRunning()) {
                 mRelocalizationTimer.stopTimer();
             }
-//
-//            runOnUiThread(new Runnable() {
-//                @Override
-//                public void run() {
-//                    mSampleAppMessage.hide();
-//                }
-//            });
         }
-    }
-
-
-//    private void clearSampleAppMessage() {
-//        runOnUiThread(new Runnable() {
-//            @Override
-//            public void run() {
-//                if (mSampleAppMessage != null) {
-//                    mSampleAppMessage.hide();
-//                }
-//            }
-//        });
-//    }
-
-
-    private void scanlineStart() {
-        this.runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                scanLine.setVisibility(View.VISIBLE);
-                scanLine.setAnimation(scanAnimation);
-            }
-        });
-    }
-
-
-    private void scanlineStop() {
-        this.runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                scanLine.setVisibility(View.GONE);
-                scanLine.clearAnimation();
-            }
-        });
     }
 }

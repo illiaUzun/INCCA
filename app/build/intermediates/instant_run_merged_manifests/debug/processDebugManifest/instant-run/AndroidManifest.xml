@@ -5,10 +5,12 @@
     android:versionName="8.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
-        android:targetSdkVersion="27" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
 
-    <uses-feature android:glEsVersion="0x00020000" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
 
     <!--
          The application requires a camera.
@@ -51,6 +53,7 @@
     -->
     <application
         android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
         android:debuggable="true"
         android:description="@string/app_description"
         android:icon="@drawable/icon"
@@ -92,6 +95,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.vuforia.engine.CoreSamples.lifecycle-trojan"
+            android:exported="false"
+            android:multiprocess="true" /> <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
