@@ -6179,6 +6179,7 @@ public final class R {
     public static final int tooltip_frame_light=0x7f07008f;
   }
   public static final class id {
+<<<<<<< HEAD
     public static final int ALT=0x7f080000;
     public static final int CTRL=0x7f080001;
     public static final int FUNCTION=0x7f080002;
@@ -6539,6 +6540,26 @@ public final class R {
     public static final int select_dialog_singlechoice_material=0x7f0b003e;
     public static final int support_simple_spinner_dropdown_item=0x7f0b003f;
     public static final int test2=0x7f0b0040;
+=======
+    public static final int camera_overlay_layout=0x7f050000;
+    public static final int loading_indicator=0x7f050001;
+    public static final int logo_image=0x7f050002;
+    public static final int overlay_status2=0x7f050003;
+    public static final int scan_line=0x7f050004;
+    public static final int settings_menu=0x7f050005;
+    public static final int settings_menu_title=0x7f050006;
+    public static final int splash_image=0x7f050007;
+    public static final int topbar_layout=0x7f050008;
+    public static final int topbar_title=0x7f050009;
+  }
+  public static final class layout {
+    public static final int camera_overlay=0x7f060000;
+    public static final int camera_overlay_with_scanline=0x7f060001;
+    public static final int sample_app_menu_group_divider=0x7f060002;
+    public static final int sample_app_menu_layer=0x7f060003;
+    public static final int sample_app_title_bar=0x7f060004;
+    public static final int splash_screen=0x7f060005;
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
   }
   public static final class string {
     public static final int INIT_ERROR=0x7f0c0000;

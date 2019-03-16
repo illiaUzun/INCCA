@@ -160,6 +160,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
                 "droid");
 
         // Relocalization timer and message
+<<<<<<< HEAD
+=======
+//        mSampleAppMessage = new SampleAppMessage(this, mUILayout, mUILayout.findViewById(R.id.topbar_layout), false);
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
         mRelocalizationTimer = new SampleAppTimer(10000, 1000) {
             @Override
             public void onFinish() {
@@ -177,6 +181,17 @@ public class CloudReco extends Activity implements SampleApplicationControl
                 if (!mRelocalizationTimer.isRunning()) {
                     mRelocalizationTimer.startTimer();
                 }
+<<<<<<< HEAD
+=======
+
+//                runOnUiThread(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        mSampleAppMessage.show(getString(R.string.instruct_relocalize));
+//                    }
+//                });
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
                 super.onFinish();
             }
         };
@@ -216,6 +231,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
         }
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     // Load specific textures from the APK, which we will later use for rendering.
     private void loadTextures() {
         mTextures.add(Texture.loadTextureFromApk("old1.png",
@@ -235,6 +254,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
         mTextures.add(Texture.loadTextureFromApk("old8.png",
                 getAssets()));
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 
     @Override
     protected void onResume() {
@@ -260,6 +283,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
 
         vuforiaAppSession.onConfigurationChanged();
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 
     @Override
     protected void onPause() {
@@ -273,6 +300,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
             mGlView.onPause();
         }
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 
     @Override
     protected void onDestroy() {
@@ -290,6 +321,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
         System.gc();
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     private void deinitCloudReco() {
         if (mTargetFinder == null) {
             Log.e(LOGTAG,
@@ -300,14 +335,32 @@ public class CloudReco extends Activity implements SampleApplicationControl
         mTargetFinder.deinit();
     }
 
+<<<<<<< HEAD
     private void startLoadingAnimation() {
         // Inflates the Overlay Layout to be displayed above the Camera View
         mUILayout = (MotionLayout) View.inflate(this, R.layout.camera_overlay_with_scanline,
+=======
+
+    private void startLoadingAnimation() {
+        // Inflates the Overlay Layout to be displayed above the Camera View
+        mUILayout = (RelativeLayout) View.inflate(this, R.layout.camera_overlay_with_scanline,
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
                 null);
 
         mUILayout.setVisibility(View.VISIBLE);
         mUILayout.setBackgroundColor(Color.BLACK);
 
+<<<<<<< HEAD
+=======
+//        RelativeLayout topbarLayout = mUILayout.findViewById(R.id.topbar_layout);
+//        topbarLayout.setVisibility(View.VISIBLE);
+
+//        TextView title = mUILayout.findViewById(R.id.topbar_title);
+//        title.setText(getText(R.string.feature_cloud_reco));
+
+//        mSettingsAdditionalViews.add(topbarLayout);
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
         loadingDialogHandler.mLoadingDialogContainer = mUILayout
                 .findViewById(R.id.loading_indicator);
         loadingDialogHandler.mLoadingDialogContainer
@@ -327,6 +380,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
                 LayoutParams.MATCH_PARENT));
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     private void initApplicationAR() {
         // Create OpenGL ES view:
         int depthSize = 16;
@@ -343,6 +400,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
         mGlView.setRenderer(mRenderer);
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     // Returns the error message for each error code
     private String getStatusDescString(int code) {
         if (code == UPDATE_ERROR_AUTHORIZATION_FAILED)
@@ -366,6 +427,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
         }
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     // Returns the error message header for each error code
     private String getStatusTitleString(int code) {
         if (code == UPDATE_ERROR_AUTHORIZATION_FAILED)
@@ -389,6 +454,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
         }
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     private void showErrorMessage(int errorCode, double errorTime, boolean finishActivityOnError) {
         if (errorTime < (mLastErrorTime + 5.0) || errorCode == mlastErrorCode)
             return;
@@ -430,6 +499,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
         });
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     private void showInitializationErrorMessage(String message) {
         final String errorMessage = message;
         runOnUiThread(new Runnable() {
@@ -459,6 +532,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
         });
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     public void startFinderIfStopped() {
         if (!mFinderStarted) {
             if (mTargetFinder == null) {
@@ -467,26 +544,55 @@ public class CloudReco extends Activity implements SampleApplicationControl
             }
 
             mTargetFinder.startRecognition();
+<<<<<<< HEAD
+=======
+            scanlineStart();
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
             mFinderStarted = true;
         }
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     public void stopFinderIfStarted() {
         if (mFinderStarted) {
             if (mTargetFinder == null) {
                 Log.e(LOGTAG, "Tried to stop TargetFinder but was not initialized");
                 return;
             }
+<<<<<<< HEAD
             mTargetFinder.stop();
+=======
+
+            mTargetFinder.stop();
+            scanlineStop();
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
             mFinderStarted = false;
         }
     }
 
+<<<<<<< HEAD
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         return true;
     }
 
+=======
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        // Process the Gestures
+//        return (mSampleAppMenu != null && mSampleAppMenu.processEvent(event))
+//                || mGestureDetector.onTouchEvent(event);
+        return true;
+    }
+
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     @Override
     public boolean doLoadTrackersData() {
         Log.d(LOGTAG, "initCloudReco");
@@ -519,6 +625,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
         return true;
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     @Override
     public boolean doUnloadTrackersData() {
         return true;
@@ -551,6 +661,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
                     LayoutParams.MATCH_PARENT));
 
             mUILayout.bringToFront();
+<<<<<<< HEAD
+=======
+//            mBtnLayout.setVisibility(View.VISIBLE);
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 
             // Hides the Loading Dialog
             loadingDialogHandler.sendEmptyMessage(LoadingDialogHandler.HIDE_LOADING_DIALOG);
@@ -594,6 +708,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
             loadingDialogHandler.sendEmptyMessage(LoadingDialogHandler.HIDE_LOADING_DIALOG);
         }
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 
     // Called every frame
     @Override
@@ -639,6 +757,10 @@ public class CloudReco extends Activity implements SampleApplicationControl
             }
         }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
         if (mResetTargetFinderTrackables) {
             finder.clearTrackables();
             mResetTargetFinderTrackables = false;
@@ -779,6 +901,85 @@ public class CloudReco extends Activity implements SampleApplicationControl
     private final static int CMD_BACK = -1;
     private final static int CMD_DEVICE_TRACKER = 1;
 
+<<<<<<< HEAD
+=======
+//    private void setSampleAppMenuSettings()
+//    {
+//        SampleAppMenuGroup group;
+//
+//        group = mSampleAppMenu.addGroup("", false);
+//        group.addTextItem(getString(R.string.menu_back), -1);
+//
+//        group = mSampleAppMenu.addGroup("", true);
+//        group.addSelectionItem(getString(R.string.menu_device_tracker),
+//                CMD_DEVICE_TRACKER, false);
+//
+//        mSampleAppMenu.attachMenu();
+//    }
+
+
+    // In this function you can define the desired behavior for each menu option
+    // Each case corresponds to a menu option
+//    @Override
+//    public boolean menuProcess(int command)
+//    {
+//        boolean result = true;
+//
+//        switch (command)
+//        {
+//            case CMD_BACK:
+//                finish();
+//                break;
+//
+//            case CMD_DEVICE_TRACKER:
+//
+//                TrackerManager trackerManager = TrackerManager.getInstance();
+//                PositionalDeviceTracker deviceTracker = (PositionalDeviceTracker)
+//                        trackerManager.getTracker(PositionalDeviceTracker.getClassType());
+//
+//                if (deviceTracker != null)
+//                {
+//                    if (!mDeviceTracker)
+//                    {
+//                        if (!deviceTracker.start())
+//                        {
+//                            Log.e(LOGTAG,"Failed to start device tracker");
+//                            result = false;
+//                        }
+//                        else
+//                        {
+//                            Log.d(LOGTAG,"Successfully started device tracker");
+//                        }
+//                    }
+//                    else
+//                    {
+//                        deviceTracker.stop();
+//                        clearSampleAppMessage();
+//                    }
+//                }
+//                else
+//                {
+//                    Log.e(LOGTAG, "Device tracker is null!");
+//                    result = false;
+//                }
+//
+//                if (result)
+//                {
+//                    mDeviceTracker = !mDeviceTracker;
+//                }
+//                else
+//                {
+//                    clearSampleAppMessage();
+//                }
+//
+//                break;
+//        }
+//
+//        return result;
+//    }
+
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     public void checkForRelocalization(final int statusInfo) {
         if (mCurrentStatusInfo == statusInfo) {
             return;
@@ -800,6 +1001,52 @@ public class CloudReco extends Activity implements SampleApplicationControl
             if (mRelocalizationTimer.isRunning()) {
                 mRelocalizationTimer.stopTimer();
             }
+<<<<<<< HEAD
         }
     }
+=======
+//
+//            runOnUiThread(new Runnable() {
+//                @Override
+//                public void run() {
+//                    mSampleAppMessage.hide();
+//                }
+//            });
+        }
+    }
+
+
+//    private void clearSampleAppMessage() {
+//        runOnUiThread(new Runnable() {
+//            @Override
+//            public void run() {
+//                if (mSampleAppMessage != null) {
+//                    mSampleAppMessage.hide();
+//                }
+//            }
+//        });
+//    }
+
+
+    private void scanlineStart() {
+        this.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                scanLine.setVisibility(View.VISIBLE);
+                scanLine.setAnimation(scanAnimation);
+            }
+        });
+    }
+
+
+    private void scanlineStop() {
+        this.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                scanLine.setVisibility(View.GONE);
+                scanLine.clearAnimation();
+            }
+        });
+    }
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 }

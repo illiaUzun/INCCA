@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Mon Feb 25 22:52:41 EET 2019
+=======
+#Fri Feb 15 12:36:35 EET 2019
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 base.0=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

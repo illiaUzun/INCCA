@@ -1,11 +1,19 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Thu Feb 21 03:30:53 EET 2019
+=======
+#Fri Feb 15 12:36:38 EET 2019
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 17.baseType=DIRECTORY
 4.path=lib/armeabi-v7a/libVuforia.so
 22.set=ASSET
 8.set=ASSET
 19.baseType=DIRECTORY
+<<<<<<< HEAD
 24.path=old2.png
+=======
+24.path=classes.dex
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 11.set=NATIVE_RESOURCE
 2.baseType=DIRECTORY
 4.baseType=DIRECTORY
@@ -43,7 +51,11 @@ count=25
 8.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 15.path=classes.dex
 14.baseType=DIRECTORY
+<<<<<<< HEAD
 17.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+=======
+17.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 10.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 7.path=old8.png
 16.baseType=DIRECTORY
@@ -60,12 +72,21 @@ count=25
 5.set=DEX
 9.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
 16.path=classes.dex
+<<<<<<< HEAD
 18.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 5.baseType=DIRECTORY
 11.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 8.path=old3.png
 24.set=ASSET
 17.path=classes.dex
+=======
+18.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+5.baseType=DIRECTORY
+11.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+8.path=old3.png
+24.set=DEX
+17.path=old6.png
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 7.baseType=DIRECTORY
 3.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 10.path=lib/x86/libVuforia.so
@@ -73,14 +94,22 @@ count=25
 13.set=DEX
 2.path=classes.dex
 9.baseType=DIRECTORY
+<<<<<<< HEAD
 23.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
 22.baseType=DIRECTORY
 22.path=old7.png
 18.set=ASSET
+=======
+23.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+22.baseType=DIRECTORY
+22.path=old7.png
+18.set=DEX
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 19.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 12.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 4.set=NATIVE_RESOURCE
 9.path=classes.dex
+<<<<<<< HEAD
 18.path=old6.png
 4.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
 11.path=lib/armeabi-v7a/libVuforiaDL.so
@@ -94,6 +123,21 @@ count=25
 11.baseType=DIRECTORY
 0.baseType=DIRECTORY
 17.set=DEX
+=======
+18.path=classes.dex
+4.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\debug\\0
+11.path=lib/armeabi-v7a/libVuforiaDL.so
+23.set=ASSET
+9.set=DEX
+3.path=old4.png
+24.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+24.baseType=DIRECTORY
+12.set=ASSET
+23.path=old2.png
+11.baseType=DIRECTORY
+0.baseType=DIRECTORY
+17.set=ASSET
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 13.baseType=DIRECTORY
 13.base=D\:\\Documents\\AndroidApps\\INCCA\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 19.path=old1.png

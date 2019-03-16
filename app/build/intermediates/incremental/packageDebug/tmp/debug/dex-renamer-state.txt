@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Sun Feb 24 19:59:51 EET 2019
+=======
+#Sat Feb 16 21:31:58 EET 2019
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 path.1=classes.dex
 path.0=classes.dex
 renamed.10=classes11.dex

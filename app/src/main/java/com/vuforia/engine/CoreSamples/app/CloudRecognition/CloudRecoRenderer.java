@@ -13,12 +13,18 @@ import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
 import android.opengl.Matrix;
 
+import com.vuforia.CloudRecoSearchResult;
 import com.vuforia.Device;
 import com.vuforia.ImageTargetResult;
 import com.vuforia.Matrix44F;
 import com.vuforia.Renderer;
 import com.vuforia.State;
 import com.vuforia.TargetFinder;
+<<<<<<< HEAD
+=======
+import com.vuforia.TargetFinderQueryResult;
+import com.vuforia.TargetSearchResult;
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 import com.vuforia.Tool;
 import com.vuforia.TrackableResult;
 import com.vuforia.TrackableResultList;
@@ -83,6 +89,10 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
                 false, 0.010f, 5f);
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     // Called when the surface is created or recreated.
     @Override
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
@@ -93,6 +103,10 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         mSampleAppRenderer.onSurfaceCreated();
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     // Called when the surface changes size.
     @Override
     public void onSurfaceChanged(GL10 gl, int width, int height) {
@@ -105,6 +119,10 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         // Call function to initialize rendering:
         initRendering();
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 
     @Override
     public void onDrawFrame(GL10 gl) {
@@ -112,6 +130,10 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         mSampleAppRenderer.render();
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     public void setActive(boolean active) {
         mIsActive = active;
 
@@ -119,6 +141,10 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
             mSampleAppRenderer.configureVideoBackground();
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     private void initRendering() {
         // Define clear color
         GLES20.glClearColor(0.0f, 0.0f, 0.0f, Vuforia.requiresAlpha() ? 0.0f
@@ -148,7 +174,11 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
                 "modelViewProjectionMatrix");
         texSampler2DHandle = GLES20.glGetUniformLocation(shaderProgramID,
                 "texSampler2D");
+<<<<<<< HEAD
         mPlane = new Plane();
+=======
+        mTeapot = new Teapot();
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
     }
 
 
@@ -221,6 +251,13 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         int textureIndex = Integer.parseInt(metaData);
         System.out.println(metaData);
 
+<<<<<<< HEAD
+=======
+    private void renderModel(float[] projectionMatrix, float[] viewMatrix, float[] modelMatrix, String metaData) {
+        int textureIndex = Integer.parseInt(metaData);
+        System.out.println(metaData);
+
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
         float[] modelViewProjection = new float[16];
 
         // Apply local transformation to our model
@@ -240,9 +277,15 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
         // activate the shader program and bind the vertex/normal/tex coords
         GLES20.glUseProgram(shaderProgramID);
         GLES20.glVertexAttribPointer(vertexHandle, 3, GLES20.GL_FLOAT, false,
+<<<<<<< HEAD
                 0, mPlane.getVertices());
         GLES20.glVertexAttribPointer(textureCoordHandle, 2, GLES20.GL_FLOAT,
                 false, 0, mPlane.getTexCoords());
+=======
+                0, mTeapot.getVertices());
+        GLES20.glVertexAttribPointer(textureCoordHandle, 2, GLES20.GL_FLOAT,
+                false, 0, mTeapot.getTexCoords());
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
         GLES20.glEnable(GL_BLEND);
         GLES20.glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
         GLES20.glEnableVertexAttribArray(vertexHandle);
@@ -259,8 +302,13 @@ public class CloudRecoRenderer implements GLSurfaceView.Renderer, SampleAppRende
                 modelViewProjection, 0);
 
         // finally draw the teapot
+<<<<<<< HEAD
         GLES20.glDrawElements(GLES20.GL_TRIANGLES, mPlane.getNumObjectIndex(),
                 GLES20.GL_UNSIGNED_SHORT, mPlane.getIndices());
+=======
+        GLES20.glDrawElements(GLES20.GL_TRIANGLES, mTeapot.getNumObjectIndex(),
+                GLES20.GL_UNSIGNED_SHORT, mTeapot.getIndices());
+>>>>>>> 86ff097e5a9d7045924a3ca87a4543124b8560ff
 
         // disable the enabled arrays
         GLES20.glDisableVertexAttribArray(vertexHandle);
